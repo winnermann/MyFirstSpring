@@ -10,6 +10,7 @@
     <!-- Создание объекта Bean -->
     <bean id="testBean"
           class="org.example.springstudy.TestBean">
+    <!--Конструктор, который принимает на вход строку-->
         <constructor-arg value="Kirill"/>
     </bean>
 
